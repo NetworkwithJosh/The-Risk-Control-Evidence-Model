@@ -37,3 +37,46 @@ This statement identifies the underlying weakness, explains what could happen, a
 ---
 
 ## 2. The Three Components of a Risk Statement
+
+### A. Cause: Why Could the Risk Occur?
+
+The cause identifies a weakness, vulnerability, or condition that makes a risk event possible.
+
+Common causes include:
+
+- Inadequate access management procedures
+- Missing multifactor authentication (MFA)
+- Delayed security patching
+- Weak password policies
+- Insufficient employee security training
+- Inadequate monitoring of privileged accounts
+- Ineffective change management procedures
+- Failure to conduct periodic access reviews
+
+**Example:**
+
+> Because quarterly user access reviews are not consistently performed...
+
+This identifies a weakness in the organization's access management process.
+
+### B. Risk Event: What Could Go Wrong?
+
+The risk event describes the potential security, operational, or compliance issue that may occur.
+
+Examples include:
+
+- Unauthorized access to sensitive systems
+- Exposure of confidential customer information
+- Fraudulent financial transactions
+- Compromise of privileged accounts
+- Loss of critical business data
+- Disruption of essential business services
+- Unauthorized modification of financial records
+
+**Example:**
+
+> ...employees may retain inappropriate access to sensitive systems...
+
+This explains what could happen because of the identified weakness.
+
+### C. Business Impact: Why Does It Matter?
