@@ -80,3 +80,59 @@ Examples include:
 This explains what could happen because of the identified weakness.
 
 ### C. Business Impact: Why Does It Matter?
+
+The business impact describes the consequences if the risk event occurs.
+
+Potential impacts include:
+
+- Financial losses
+- Regulatory fines or penalties
+- Reputational damage
+- Business interruptions
+- Legal liabilities
+- Loss of customer trust
+- Exposure of confidential information
+- Increased recovery and remediation costs
+
+**Example:**
+
+> ...resulting in potential data exposure, financial losses, or regulatory compliance violations.
+
+This explains why management should be concerned about the risk.
+
+---
+
+## 3. Control Deficiencies vs. Risk Statements
+
+One of the most important concepts in IT auditing is understanding the difference between a control deficiency and a risk.
+
+### Control Deficiency
+
+A control deficiency describes a missing, ineffective, or improperly implemented control.
+
+**Example:**
+
+> Quarterly user access reviews are not performed.
+
+This identifies a control problem but does not explain the associated business risk.
+
+### Risk Statement
+
+A risk statement identifies what could happen because of the control deficiency.
+
+**Example:**
+
+> Because quarterly user access reviews are not consistently performed, employees may retain excessive or inappropriate system permissions, resulting in unauthorized access to sensitive information or potential fraudulent activity.
+
+### Comparison Table
+
+| Control Deficiency | Associated Risk |
+|---|---|
+| MFA is not enforced | Unauthorized individuals may compromise user accounts. |
+| Backups are not tested | Critical business data may not be recoverable following a system failure. |
+| User access reviews are not performed | Excessive or inappropriate access may remain undetected. |
+| Security patches are delayed | Attackers may exploit known vulnerabilities. |
+| Privileged accounts are not monitored | Unauthorized administrative activity may go undetected. |
+| Changes are deployed without approval | Unauthorized or defective system changes may disrupt operations. |
+
+**Key Concept:**
