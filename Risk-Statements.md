@@ -344,3 +344,199 @@ Before finalizing a risk statement, verify the following:
 **A risk statement tells management what could happen and why it matters.**
 
 This skill is applicable to IT auditing, cybersecurity risk assessments, internal controls testing, SOC 2 assessments, ISO 27001 risk management, and broader GRC activities.
+
+
+# GRC Risk Statement Examples
+
+## Overview
+
+This document presents three cybersecurity and IT risk
+scenarios using the Cause, Risk Event, and Business Impact
+framework.
+
+Each scenario demonstrates how to identify a potential
+organizational risk and communicate it in a professional
+risk statement.
+
+### Risk Statement Formula
+
+**Because of [Cause], [Risk Event] may occur,
+resulting in [Business Impact].**
+
+---
+
+## 1. R-04: Critical Vendor Security Failure
+
+### Scenario
+
+An organization relies on third-party vendors to provide
+essential services and process sensitive customer information.
+
+Inadequate vendor due diligence and security assessments
+may expose the organization to third-party risks.
+
+### Risk Components
+
+| Component | Description |
+|---|---|
+| **Cause** | Inadequate vendor due diligence and insufficient assessment of third-party security controls. |
+| **Risk Event** | A vendor handling sensitive customer data may experience a security breach or control failure. |
+| **Business Impact** | Customer data exposure, regulatory penalties, reputational damage, and potential service disruptions. |
+
+### Complete Risk Statement
+
+> Because vendor due diligence and third-party security
+> assessments are inadequate, vendors handling sensitive
+> customer information may experience security breaches
+> or control failures, resulting in potential data
+> exposure, regulatory penalties, and business disruptions.
+
+### Related Controls
+
+- TP-01: Third-Party Risk Management
+- TP-02: Vendor Security Assessment
+
+### Risk Treatment
+
+**Mitigate**
+
+Potential mitigation measures:
+
+- Conduct vendor security assessments before onboarding.
+- Review SOC 2 reports and other applicable assurance evidence.
+- Evaluate vendors' data protection practices.
+- Establish contractual security requirements.
+- Perform periodic vendor risk reassessments.
+
+---
+
+## 2. R-03: Delayed Termination Deprovisioning
+
+### Scenario
+
+An organization does not consistently revoke system
+access when employees leave the company.
+
+Former employees may retain access to sensitive
+systems beyond their termination dates.
+
+### Risk Components
+
+| Component | Description |
+|---|---|
+| **Cause** | Employee access is not consistently revoked within the required timeframe after termination. |
+| **Risk Event** | Former employees may retain and misuse access to company systems. |
+| **Business Impact** | Sensitive data exposure, fraudulent activity, and potential compliance violations. |
+
+### Complete Risk Statement
+
+> Because terminated employees' system access is not
+> consistently revoked in a timely manner, former
+> employees may retain and misuse access to company
+> resources, resulting in potential data breaches,
+> fraudulent activity, or regulatory compliance violations.
+
+### Related Controls
+
+- AC-02: Account Management
+
+### Risk Treatment
+
+**Mitigate**
+
+Potential mitigation measures:
+
+- Establish formal employee offboarding procedures.
+- Integrate HR termination notifications with IAM systems.
+- Automate account deactivation where appropriate.
+- Monitor terminated employees' account status.
+- Conduct periodic access reviews.
+- Maintain evidence of completed access removal.
+
+---
+
+## 3. R-05: Backup or Recovery Failure
+
+### Scenario
+
+An organization relies on backups to restore critical
+systems and customer information after disruptions.
+
+However, backup procedures may be incomplete,
+infrequent, or insufficiently tested.
+
+### Risk Components
+
+| Component | Description |
+|---|---|
+| **Cause** | Data backups may be incomplete, performed too infrequently, or not adequately tested. |
+| **Risk Event** | Critical systems or customer data may be unavailable or unrecoverable following an incident. |
+| **Business Impact** | Extended operational downtime, financial losses, loss of customer trust, and business continuity disruptions. |
+
+### Complete Risk Statement
+
+> Because backup procedures are not consistently
+> verified or tested, the organization may be unable
+> to recover critical systems and customer data
+> following an incident, resulting in prolonged
+> operational downtime, financial losses, and
+> business continuity disruptions.
+
+### Related Controls
+
+- BC-01: Business Continuity
+- BC-02: Backup and Recovery
+
+### Risk Treatment
+
+**Mitigate**
+
+Potential mitigation measures:
+
+- Establish documented backup procedures.
+- Perform regular backup restoration testing.
+- Define recovery time objectives (RTO).
+- Define recovery point objectives (RPO).
+- Monitor backup job completion and failures.
+- Maintain and test disaster recovery procedures.
+
+---
+
+## Risk Summary
+
+| Risk ID | Risk Title | Inherent Rating | Response |
+|---|---|---|---|
+| R-04 | Critical Vendor Security Failure | High | Mitigate |
+| R-03 | Delayed Termination Deprovisioning | High | Mitigate |
+| R-05 | Backup or Recovery Failure | High | Mitigate |
+
+---
+
+## Key Takeaways
+
+1. A risk statement should identify a clear cause,
+   risk event, and business impact.
+
+2. Control deficiencies describe weaknesses in
+   organizational processes or security controls.
+
+3. Risk statements explain what could happen
+   because of those weaknesses.
+
+4. Business impacts should be specific and
+   relevant to the organization.
+
+5. Risk treatment strategies help organizations
+   reduce the likelihood or impact of identified risks.
+
+6. Risk statements should be supported by
+   assessment evidence before being presented
+   as confirmed findings.
+
+### Final Reminder
+
+**Control Deficiency:** What is wrong?
+
+**Risk Event:** What could happen?
+
+**Business Impact:** Why does it matter?
