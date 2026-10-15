@@ -300,7 +300,16 @@ Combine your answers into one professional statement.
 
 > [Write your completed risk statement here]
 
+Example 1
+Because there no two factor authentication when user sign into company computers, it's easier to get unauthorized access to administrator users, resulting in unauthorized activity 
 ---
+
+Example 2
+Because of no SD-WAN failover users may not be able to get back on the company internet occur, resulting in business continuity impact.
+
+Example 3
+
+Because vendor due diligence is not performed, the organization may engage vendors that are unable to meet contractual or operational requirements, resulting in service disruptions and potential business continuity issues.
 
 ## 7. Risk Statement Quality Checklist
 
@@ -329,6 +338,8 @@ Before finalizing a risk statement, verify the following:
 ### Final Reminder
 
 **A control deficiency tells management what is wrong.**
+
+
 
 **A risk statement tells management what could happen and why it matters.**
 
